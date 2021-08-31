@@ -166,6 +166,33 @@ $(document).ready(function () {
         $('.download-form-tab').slideToggle(500)
         $(this).toggleClass("active")
     })
+
+    //////////** related slider **//////////
+    var relatedwiper = new Swiper('.related-slider .swiper-container', {
+        loop: true,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+            },
+            991: {
+                slidesPerView: 3,
+                spaceBetween: 15,
+            },
+            1300: {
+                spaceBetween: 36,
+                slidesPerView: 3,
+            },
+        },
+        pagination: {
+            el: '.related-slider .swiper-pagination',
+            clickable: true,
+        },
+    });
 });
 
 
