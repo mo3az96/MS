@@ -3461,20 +3461,20 @@ html[dir="ltr"] .use-service.download-form-tab .tab-text {
   z-index: 2;
 }
 
-.footer {
-  padding: 36px 0 60px;
+footer {
+  padding: 36px 0 30px;
 }
 
-.footer .socials {
+footer .socials {
   margin: 0;
 }
 
 @media (max-width: 991px) {
-  .footer {
+  footer {
     text-align: center;
     padding: 30px 0;
   }
-  .footer .socials {
+  footer .socials {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -3624,6 +3624,38 @@ html[dir="ltr"] .use-service.download-form-tab .tab-text {
 }
 
 .dark-footer .footer-sec-list a:hover, .dark-footer .footer-sec-list a:focus {
+  color: #ae9552;
+}
+
+.copyrights {
+  font-size: 21px;
+  text-align: center;
+  margin: 30px 0 0;
+  color: #092d66;
+}
+
+.copyrights a {
+  color: #092d66;
+  font-family: DIN;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.copyrights a:hover, .copyrights a:focus {
+  color: #ae9552;
+  text-decoration: none;
+}
+
+.dark-footer .copyrights {
+  color: #fff;
+}
+
+.dark-footer .copyrights a {
+  color: #fff;
+}
+
+.dark-footer .copyrights a:hover, .dark-footer .copyrights a:focus {
   color: #ae9552;
 }
 
