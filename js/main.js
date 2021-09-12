@@ -203,7 +203,7 @@ $(function () { // wait for document ready
     var pinIntroScenes = new ScrollMagic.Scene({
         triggerElement: '#pinContainer',
         triggerHook: 0,
-        duration: '1000'
+        duration: '750'
     })
         .setPin('#pinContainer')
         .addTo(controllers);
@@ -211,7 +211,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1150
     })
         .setTween(TweenMax.fromTo($('#text1'), 1, {
@@ -223,7 +223,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1250
     })
         .setTween(TweenMax.fromTo($('#text2'), 1, {
@@ -235,7 +235,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1350
     })
         .setTween(TweenMax.fromTo($('#name1'), 1, {
@@ -249,7 +249,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1450
     })
         .setTween(TweenMax.fromTo($('#name2'), 1, {
@@ -263,7 +263,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1550
     })
         .setTween(TweenMax.fromTo($('#animate1'), 1, {
@@ -277,7 +277,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1750
     })
         .setTween(TweenMax.fromTo($('#animate2'), 1, {
@@ -291,7 +291,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 2000
     })
         .setTween(TweenMax.fromTo($('#animate3'), 1, {
@@ -305,7 +305,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1650
     })
         .setTween(TweenMax.fromTo($('#animate4'), 1, {
@@ -319,7 +319,7 @@ $(function () { // wait for document ready
 
     var controller = new ScrollMagic.Controller();
     var startimgbook1 = new ScrollMagic.Scene({
-        duration: 100,
+        duration: 75,
         offset: 1850
     })
         .setTween(TweenMax.fromTo($('#animate5'), 1, {

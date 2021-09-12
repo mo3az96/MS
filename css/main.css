@@ -2309,7 +2309,7 @@ html[dir="ltr"] .about-img {
 
 .contact-form {
   width: 50%;
-  padding: 70px 0 65px;
+  padding: 40px 0 40px;
 }
 
 html[dir="rtl"] .contact-form {
@@ -3520,7 +3520,7 @@ footer .socials {
 }
 
 .contact-info:hover, .contact-info:focus {
-  color: #ae9552;
+  color: #092d66;
   text-decoration: none;
 }
 
